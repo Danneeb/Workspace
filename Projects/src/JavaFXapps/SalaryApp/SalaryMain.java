@@ -31,7 +31,7 @@ public class SalaryMain extends Application {
 		
 		stage.setScene(scene);
 		stage.show();
-		
+		//testar repo från laptop
 	}
 
 }
