@@ -8,8 +8,13 @@ public class PrintRecursive {
 		System.out.println(); // Line break
 		//printReverse(str, 0);
 	}
-	public static String print(String str, int pos) {
-		return print(str,0);
+	public static void print(String str, int pos) {
+		if(str.length()<=1) {
+			System.out.println(str);
+		}else {
+			System.out.print(str);
+		}
+	
 	}
 	//public static String printReverse(String str,int pos) {
 		//return (printReverse(str,str.length()-1));
