@@ -42,8 +42,8 @@ public class Calculator extends Application{
 	}
 	public static void CalculateSalary(Button salary) {
 		salary.setOnAction(e ->{
-			SalaryButton sc = new SalaryButton();
-			sc.button();
+			Buttons sc = new Buttons();
+			sc.SalaryButton();
 		});
 	}
 

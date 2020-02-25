@@ -7,7 +7,7 @@ import javafx.stage.Stage;
 
 public class Buttons {
 
-	public void button() {
+	public void SalaryButton() {
 		Stage newWindow = new Stage();
 		newWindow.setTitle("Salary Calculator");
 
