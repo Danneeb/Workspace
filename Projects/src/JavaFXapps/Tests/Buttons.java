@@ -5,7 +5,7 @@ import javafx.scene.Scene;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
-public class SalaryButton {
+public class Buttons {
 
 	public void button() {
 		Stage newWindow = new Stage();
