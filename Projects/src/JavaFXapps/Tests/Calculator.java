@@ -22,21 +22,23 @@ public class Calculator extends Application{
 		pane.setVgap(5.0);
 		pane.setHgap(5.0);
 		pane.setAlignment(Pos.CENTER);
-
 		Text txt = new Text("What do you want to do?");
 		pane.add(txt, 0, 0);
-
-		Button salary = new Button("Calculate Salary");
+		Button salary = new Button("calculate salary");
 		pane.add(salary, 0, 1);
+		Scene scene = new Scene(pane);
+		stage.setScene(scene);
+		stage.show();
 
+
+
+		
 		CalculateSalary(salary);
 
 
 
 
-		Scene scene = new Scene(pane);
-		stage.setScene(scene);
-		stage.show();
+		
 	}
 	public static void CalculateSalary(Button salary) {
 		salary.setOnAction(e ->{
