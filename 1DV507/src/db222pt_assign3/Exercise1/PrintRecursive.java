@@ -6,17 +6,25 @@ public class PrintRecursive {
 
 		print(str, 0);
 		System.out.println(); // Line break
-		//printReverse(str, 0);
+		printReverse(str, 0);
 	}
 	public static void print(String str, int pos) {
-		if(str.length()<=1) {
-			System.out.println(str);
+		if(pos<0) {
+			
 		}else {
-			System.out.print(str);
+			System.out.println(str);
+			pos--;
+			print(str,pos);
 		}
-	
 	}
-	//public static String printReverse(String str,int pos) {
-		//return (printReverse(str,str.length()-1));
-	//}
+	public static void printReverse(String str,int pos) {
+		
+		if(str.isEmpty()) {
+			
+		}else {
+			printReverse(str.substring(1)+str.charAt(0), pos );
+			
+		}
+		System.out.println(str);
+	}
 }
