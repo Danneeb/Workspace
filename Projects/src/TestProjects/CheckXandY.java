@@ -12,7 +12,7 @@ public class CheckXandY {
 	
 	
 	public static void main(String[] args) {
-		String str = "qwasxxy";
+		String str = "x";
 		
 		System.out.println(compXY(str));
 
